@@ -8,7 +8,7 @@ For example, the installation directory of Cura is,
 ```
 C:\Program Files\Ultimaker Cura 4.8.0\
 ```
-Copy all the directories to the ```resources``` directory of Cura.
+Copy all the ```directories``` to the ```resources``` directory of Cura.
 
 ```
 =>  C:\Program Files\Ultimaker Cura 4.8.0\resources
