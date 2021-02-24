@@ -1,0 +1,41 @@
+{
+    "name": "MT3X (Parallel Mode)",
+    "version": 2,
+    "inherits": "multoo_printer_base",
+    "metadata": {
+	"platform": "multoo_mt3x_platform.stl",
+	"platform_offset": [-114, -5, 264],
+	"machine_extruder_count": 1,
+	"machine_extruder_trains": {
+            "0": "multoo_printer_base_extruder_0"
+        },
+
+        "quality_definition": "multoo_printer_base",
+        "visible": true
+	
+
+    },
+    "overrides": {
+        "machine_name": { "default_value": "MT3X (Parallel Mode)" },
+	"machine_extruder_count": { "default_value": 1 },
+        "machine_width": { "default_value": 220 },
+        "machine_depth": { "default_value": 500 },
+        "machine_height": { "default_value": 500 },
+	"machine_heated_bed": { "default_value": true },
+        "machine_center_is_zero": { "default_value": false },
+        "machine_head_with_fans_polygon": {
+            "default_value": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+            ]
+        },
+        "gantry_height": { "value": 25 },
+	"machine_gcode_flavor": { "default_value": "Marlin" },
+        "machine_start_gcode": { "default_value": "M2000 L1 V{layer_height_0}\nM2000 L2 V{layer_height}\nM2000 S2\nG90\nM107\nM140 S{material_bed_temperature_layer_0} ; Preheat bed\nM109 S{material_initial_print_temperature} ; Heating Nozzle\nM104 S{material_print_temperature_layer_0} ; Preheat Nozzle\nG28\nG1 Z15.0 F2000\nM2000 P1\n" },
+        "machine_end_gcode": { "default_value": "M140 T1 S0\nM140 T0 S0\nM2000 P0\nM2000 S0\n" }
+
+    }
+    
+}
