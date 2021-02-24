@@ -19,6 +19,7 @@ Add Printer.
 
 ### Note
 1.The default height of Z axis is ```500mm```. If your Z axis is not ```500mm```. Then you need to modify the height of the Z axis.
+
 For example,
 ```
 Preferences -> Configure Cura... -> Printers -> MT2X -> Machine Settings -> Z(Height)     600
