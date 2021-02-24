@@ -6,9 +6,13 @@ Add MULTOO printer profile for Cura(Version 4.8.0).
 **Step1.**
 For example, the installation directory of Cura is,
 ```
-C:\Program Files\Ultimaker Cura 4.8.0\resources
+C:\Program Files\Ultimaker Cura 4.8.0\
 ```
 Copy all the directories to the ```resources``` directory of Cura.
+
+```
+=>  C:\Program Files\Ultimaker Cura 4.8.0\resources
+```
 
 **Step2.**
 Start Cura.
