@@ -28,7 +28,7 @@ For example,
 ```
 Preferences -> Configure Cura... -> Printers -> MT2X -> Machine Settings -> Z(Height)     600
 ```
-Then ```close```.
+Then ```close``` the small window. You can use Cura now.
 
 2.These configurations are all default. You can use it directly. You can also modify the parameters according to your needs.
 
