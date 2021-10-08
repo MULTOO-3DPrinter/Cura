@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "Right Extruder",
+    "inherits": "fdmextruder",
+    "metadata": {
+        "machine": "multoo_printer_base",
+        "position": "0"
+    },
+
+    "overrides": {
+        "extruder_nr": { "default_value": 0 },
+        "material_diameter": { "default_value": 1.75 }
+        
+    }
+}
